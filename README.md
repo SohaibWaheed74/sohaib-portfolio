@@ -8,7 +8,7 @@ The website highlights my education, skills, projects, experience, publication, 
 Add your deployed website link here:
 
 ```text
-https://your-portfolio-link.com
+https://sohaib-portfolio-pink.vercel.app/
 ```
 
 ## About Me
@@ -140,8 +140,8 @@ The production build will be created in the `dist` folder.
 **Name:** Sohaib Bin Waheed
 **Location:** Rawalpindi, Pakistan
 **Phone:** 03315758299
-**LinkedIn:** Add your LinkedIn profile link
-**GitHub:** Add your GitHub profile link
+**LinkedIn:** https://www.linkedin.com/in/sohaib-bin-waheed/
+
 
 ## License
 
