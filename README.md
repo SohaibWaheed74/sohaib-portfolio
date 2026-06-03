@@ -8,7 +8,7 @@ The website highlights my education, skills, projects, experience, publication, 
 Add your deployed website link here:
 
 ```text
-https://sohaib-portfolio-pink.vercel.app/
+https://sohaib-bin-waheed-portfolio.vercel.app/
 ```
 
 ## About Me
