@@ -1,73 +1,148 @@
-# React + TypeScript + Vite
+# Sohaib Bin Waheed - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React JS, TypeScript, and Vite**.
+The website highlights my education, skills, projects, experience, publication, and contact information.
 
-Currently, two official plugins are available:
+## Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add your deployed website link here:
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+https://your-portfolio-link.com
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## About Me
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Motivated Computer Science graduate dedicated to continuous learning, professional growth, and contributing effectively to IT projects.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Features
+
+* Responsive portfolio website
+* Clean modern UI
+* About section
+* Skills section
+* Projects section
+* Education section
+* Experience section
+* Publication section
+* Contact section
+* Resume download option
+* Floating WhatsApp contact button
+* Custom favicon
+
+## Technologies Used
+
+* React JS
+* TypeScript
+* Vite
+* HTML
+* CSS
+* Git & GitHub
+
+## Main Project
+
+### Computer Architecture Toolkit
+
+A React Native educational application that helps students understand computer architecture concepts through custom architecture design, instruction creation, register visualization, memory visualization, stack, flags, and step-by-step execution.
+
+## Publication
+
+### An Interactive Toolkit for Designing and Exploring Custom CPU Architectures
+
+Published in **Annual Methodological Archive Research Review (AMARR)**.
+
+Paper Link:
+
+```text
+https://amresearchjournal.com/index.php/Journal/article/view/2005
 ```
+
+## Folder Structure
+
+```text
+sohaib-portfolio
+│
+├── public
+│   ├── favicon.svg
+│   ├── profile.jpg
+│   └── Sohaib_Resume.pdf
+│
+├── src
+│   ├── components
+│   │   ├── About.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Education.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Publication.tsx
+│   │   ├── Skills.tsx
+│   │   └── WhatsAppButton.tsx
+│   │
+│   ├── data
+│   │   └── portfolioData.ts
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/sohaib-portfolio.git
+```
+
+Go to the project folder:
+
+```bash
+cd sohaib-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```text
+http://localhost:5173
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The production build will be created in the `dist` folder.
+
+## Contact
+
+**Name:** Sohaib Bin Waheed
+**Location:** Rawalpindi, Pakistan
+**Phone:** 03315758299
+**LinkedIn:** Add your LinkedIn profile link
+**GitHub:** Add your GitHub profile link
+
+## License
+
+This project is open for learning and portfolio purposes.
