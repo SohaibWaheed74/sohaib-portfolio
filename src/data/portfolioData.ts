@@ -121,6 +121,14 @@ export const projects: Project[] = [
 
 export const experience: Experience[] = [
     {
+        role: "Customer Support & Data Entry Officer",
+        company: "Eposmatic (Private) Limited",
+        location: "Islamabad, Pakistan",
+        duration: "June 2026 - Present",
+        description:
+            "Provide customer support to restaurant clients using the POS (Point of Sale) system through phone, email, and remote assistance. Resolve software issues related to billing, orders, payments, and POS functionality. Manage restaurant menu updates by adding new items, modifying prices, categories, and product details. Configure POS settings according to client requirements, maintain accurate customer and restaurant data, document reported issues, collaborate with the technical team for timely resolutions, and deliver professional customer service while handling multiple support requests efficiently.",
+    },
+    {
         role: "Educational Intern / Self-Learning",
         company: "Morosoft Technologies",
         location: "Saidpur Road, Rawalpindi",
