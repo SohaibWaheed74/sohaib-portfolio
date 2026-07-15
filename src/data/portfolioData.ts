@@ -129,10 +129,10 @@ export const experience: Experience[] = [
             "Provide customer support to restaurant clients using the POS (Point of Sale) system through phone, email, and remote assistance. Resolve software issues related to billing, orders, payments, and POS functionality. Manage restaurant menu updates by adding new items, modifying prices, categories, and product details. Configure POS settings according to client requirements, maintain accurate customer and restaurant data, document reported issues, collaborate with the technical team for timely resolutions, and deliver professional customer service while handling multiple support requests efficiently.",
     },
     {
-        role: "Educational Intern / Self-Learning",
+        role: "Educational Internship / Self-Learning",
         company: "Morosoft Technologies",
         location: "Saidpur Road, Rawalpindi",
-        duration: "Internship / Training",
+        duration: "Feb 2026 - May 2026",
         description:
             "Completed educational internship and self-learning practice focused on software development concepts, project improvement, practical programming, and professional learning.",
     },
